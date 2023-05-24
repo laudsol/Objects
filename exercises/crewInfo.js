@@ -8,7 +8,6 @@ crew names and degrees in the following format:
 '[crew member's name]: [crew member's degree]', i.e.,'Lily: Computer Engineering'.
 */
 
-
 let spaceship = {
     crew: {
     captain: { 
