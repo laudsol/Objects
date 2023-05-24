@@ -8,7 +8,7 @@ Let’s use bracket notation to access the value of 'Active Mission' from the sp
 */
 
 let spaceship = {
-  'Fuel Type' : 'Turbo Fuel',
+  'Fuel Type': 'Turbo Fuel',
   'Active Mission' : true,
   homePlanet : 'Earth', 
   numCrew: 5
@@ -18,3 +18,6 @@ let propName =  'Active Mission';
 
 
 // Write your code below
+spaceship['name'] = "Speedster";
+spaceship["Fuel Type"] = "battery";
+console.log(spaceship);

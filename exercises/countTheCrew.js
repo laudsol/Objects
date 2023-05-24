@@ -14,3 +14,9 @@ let spaceship = {
 };
 
 // Write your code below
+spaceship.name = 'Millenium Falcon';
+spaceship['name'] = 'Millenium Falcon';
+
+
+
+console.log('hello');
